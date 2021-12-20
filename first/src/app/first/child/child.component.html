@@ -17,8 +17,8 @@
         <span class="done" *ngIf="item.check">DONE</span>
         <span class="progress" *ngIf="!item.check">In PROGRESS</span>
       </th>
-      <th><button value="Edit" class="btnTable" id="btn-edit2" (click)="editTask(i)">Edit</button></th>
-      <th><button value="Delete" class="btnTable2" id="btn-delete" (click)="deleteTask(i)"
+      <th class="th-btn"><button value="Edit" class="btnTable" id="btn-edit2" (click)="editTask(i)">Edit</button></th>
+      <th class="th-btn"><button value="Delete" class="btnTable2" id="btn-delete" (click)="deleteTask(i)"
           [disabled]="!item.check">Delete</button></th>
           <hr>
     </tr>

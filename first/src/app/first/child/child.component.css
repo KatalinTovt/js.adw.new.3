@@ -1,6 +1,6 @@
 #table{
   width: 100%;
-  margin-left: 25px;
+  margin-top: -10px;
   border-collapse: collapse;
  }
  .btnTable{
@@ -64,7 +64,13 @@
   th{
     font-size: 15px;
    height: 70px;
+   width: 19%;
+   text-align: start;
    
+   }
+   .th-btn{
+  
+    height: 50px;
    }
    td{
     font-size: 15px;
@@ -76,3 +82,5 @@
    .first-tr{
     border-bottom: 1px solid rgb(196, 196, 196);
    }
+
+
